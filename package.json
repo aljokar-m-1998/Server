@@ -1,0 +1,20 @@
+{
+  "name": "pdf-saas-v2",
+  "version": "2.0.0",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "axios": "^1.6.2",
+    "cors": "^2.8.5",
+    "pdf-lib": "^1.17.1",
+    "pdf-parse": "^1.1.1",
+    "@supabase/supabase-js": "^2.39.0",
+    "sharp": "^0.32.6",
+    "express-rate-limit": "^7.1.5",
+    "form-data": "^4.0.0"
+  }
+}
